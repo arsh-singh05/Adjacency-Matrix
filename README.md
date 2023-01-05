@@ -5,10 +5,12 @@ This repository contains a collection of Python implementations for working with
 ### Implementations
 
 **Adjacency Matrix**: A basic implementation of an adjacency matrix class that supports adding and removing edges, determining the degree of a vertex, and finding the neighbors of a vertex.
+
 **Weighted Adjacency Matrix**: An extension of the adjacency matrix class that supports weighted edges, with the weight of an edge represented by a non-zero value in the matrix.
+
 **Sparse Adjacency Matrix**: An implementation of an adjacency matrix using a sparse matrix representation, which is more memory-efficient for graphs with a large number of vertices and a small number of edges.
 
-#### Example
+### Example
 ```python
 # Create an adjacency matrix with 5 vertices
 matrix = AdjacencyMatrix(5)
