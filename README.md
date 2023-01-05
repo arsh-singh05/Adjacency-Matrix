@@ -1,5 +1,8 @@
 # Adjacency-Matrix
 
+Question:
+Display a sub-tree at a given vertex of a given rooted tree, when the graph is represented using an adjacency matrix. Also compute the height of the trees.
+
 This repository contains a collection of Python implementations for working with adjacency matrices. An adjacency matrix is a square matrix that represents a finite graph, with rows and columns corresponding to vertices, and the presence of an edge between two vertices indicated by a non-zero value in the matrix. Adjacency matrices are a useful representation of graphs because they allow for efficient operations such as determining the degree of a vertex, finding the neighbors of a vertex, and traversing the graph.
 
 ### Implementations
@@ -44,7 +47,5 @@ print(f"Vertex 0 has neighbors {neighbors}")
 
 # Output: Vertex 0 has neighbors [1, 2]
 ```
-Question:
-Display a sub-tree at a given vertex of a given rooted tree, when the graph is represented using an adjacency matrix. Also compute the height of the trees.
 
 If you have any suggestions or improvements for the implementations in this repository, feel free to create a pull request or open an issue. Contributions are welcome!
